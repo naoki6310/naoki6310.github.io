@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChromaCal – Auto-color Google Calendar by keyword</title>
+  <meta name="description" content="ChromaCal is a Chrome extension that colors your Google Calendar events in bulk with keyword rules. Real event colors that sync to your phone.">
+  <link rel="icon" href="icon128.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="icon128.png" width="88" height="88" alt="ChromaCal icon">
+    <h1>ChromaCal</h1>
+    <p class="tagline">Auto-color Google Calendar™ by keyword.</p>
+    <p class="sub">Write a rule once — “Standup → blue”, “Deadline → red” — and every matching event gets a real Google Calendar color that also shows on your phone.</p>
+  </header>
+
+  <main>
+    <section class="cards">
+      <article>
+        <h2>1. Make rules</h2>
+        <p>Pick a keyword (or a regular expression) and a color. Rules higher in the list win.</p>
+      </article>
+      <article>
+        <h2>2. Review</h2>
+        <p>See exactly which events will change before anything is written. Events you colored yourself are kept.</p>
+      </article>
+      <article>
+        <h2>3. Apply</h2>
+        <p>ChromaCal sets the event colors in your Google Calendar. Undo the last run with one click, or let new events be colored automatically every 30 minutes.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>What ChromaCal accesses</h2>
+      <p>ChromaCal uses the official Google Calendar API, directly from your browser, only after you connect your Google account:</p>
+      <ul>
+        <li><strong>Your calendar list</strong> (names and colors) — so you can choose which calendars to color.</li>
+        <li><strong>Calendar color labels</strong> — Google Calendar stores custom event colors as labels on each calendar; ChromaCal adds the labels your rules need.</li>
+        <li><strong>Event titles, times and current colors</strong> on calendars you own — to find events that match your rules and set their color.</li>
+      </ul>
+      <p>ChromaCal never reads event descriptions, attendees, or locations, never creates, moves or deletes events, and has no server: your data goes only between your browser and Google. See the <a href="privacy.html">privacy policy</a>.</p>
+    </section>
+
+    <section lang="ja">
+      <h2>日本語</h2>
+      <p>ChromaCal は、「定例は青」「締め切りは赤」のようなルールで Google カレンダー™ の予定にまとめて色を付ける Chrome 拡張機能です。色は Google カレンダー自体に保存されるので、スマホのアプリにも反映されます。変更前に内容を確認でき、前回の変更は元に戻せます。サーバーは使わず、データはブラウザと Google の間だけでやり取りします。</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions or feedback: <a href="mailto:naoki9996@gmail.com">naoki9996@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+    <span>·</span>
+    <span>Google Calendar is a trademark of Google LLC. ChromaCal is not affiliated with or endorsed by Google.</span>
+  </footer>
+</body>
+</html>
